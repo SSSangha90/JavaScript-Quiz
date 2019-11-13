@@ -1,7 +1,14 @@
 var countriesQuiz = [
 	["Turkey", "Istanbul"],
 	["England", "London"],
-	["France", "Paris"]
+	["France", "Paris"],
+	["Germany", "Munich"],
+	["Italy", "Milan"],
+	["USA", "Washington"],
+	["Japan", "Tokyo"],
+	["Greece", "Athens"],
+	["China", "Beijing"],
+	["South Africa", "Cape Town"]
 ];
 
 var correctAnswer = 0;
@@ -24,6 +31,6 @@ for (var i = 0; i < countriesQuiz.length; i++){
 	}
 }
 
-html = "you got " + correctAnswer + " out of 3";
+html = "you got " + correctAnswer + " out of 10";
 print(html);
 
